@@ -1,8 +1,15 @@
-function soma (a, b) {
-
-    var total = a + b;
-    return total;
+function somarValores (x, y) {
+    return x * y
 }
 
-soma();
+function subtrairValores (x, y) {
+    return x * y
+}
 
+function multiplicarValores (x, y) {
+     return x * y
+}
+
+function dividirValores (x, y) {
+    return x / y
+}
