@@ -1,9 +1,19 @@
+function bagulho (name) {
+
+    
+    let pessoas = {
+        Abel: 5707070,
+        Hericles: 5850628,
+        Lisa: 9909090
+    };
 
 
-const pessoas = new Map([
-    ["Vitor", 5909090],
-    ["Lisa", 9808080],
-    ["Hericles", 9787878]
-  ]);
-  
-  document.getElementById("demo").innerHTML = pessoas.get("Vitor");
+
+    var name = document.getElementById("texto1").value;
+
+    document.getElementById("result").value = pessoas[name];
+
+
+}
+
+
