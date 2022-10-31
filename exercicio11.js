@@ -35,7 +35,7 @@ function AddList(name, num) {
 
 
 
-function EliminaList(name, num) {
+function EliminaList(name) {
     let phoneBook = {
         Abel: 5802943,
         Laura: 9761405,
@@ -44,14 +44,36 @@ function EliminaList(name, num) {
         Victor: 9519228
     }
 
-     delete phoneBook[name, num];
+     delete phoneBook[name];
 
      return phoneBook
 
 }
 
-function principal() {
+
+
+// Funcao principal
+
+ function principal(name, num, operation) {
+
+
+ if (operation == "add") {
+
+    return AddList(name, num)
     
-    
+ }else if(operation == "del"){
+
+
+    return EliminaList(name)
+
+} else if(operation == "get") {
+
+
+   return giveMePhoneNumber(name)
+   
 }
+
+
+ }
+
 
