@@ -21,13 +21,22 @@
 // }
 
 
-function novo2(nome) {
+// function novo2(nome) {
 
 
-    for(let i in nome){
+//     for(let i in nome){
+//         console.log(nome[i])
+//     }
+// }
+
+
+function novo3(nome) {
+
+    for (var i = nome.length - 1;  i >= 0;  i--) {
         console.log(nome[i])
     }
 }
+
 
 
 
