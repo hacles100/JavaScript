@@ -28,10 +28,46 @@ function comparacao(content1, content2) {
 
 function substring(elemento1, elemento2){
 
+    // let i = 0
 
-    return elemento1.substring(elemento2);
+    // if(elemento1[i] == elemento2[i].substring(elemento2)){
+        
+    //     return true
+
+    // }else {
+
+    //     return false
+    // }
+
+    var sub = elemento1.substring(0, elemento2.length)
+    return elemento2 == sub
 
 }
+
+
+function concatena(primeiro, segundo) {
+
+
+    return primeiro.repeat(segundo)
+      
+}
+
+
+
+// Usando for
+function concatena2(primeiro, segundo = 1) {
+    
+    let conjunto = ""
+
+    for(let count = 0; count < segundo; count++){
+       
+        conjunto = conjunto + primeiro
+    }
+
+    return conjunto
+
+}
+
 
 
 
