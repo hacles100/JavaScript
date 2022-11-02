@@ -71,7 +71,6 @@ function concatena2(primeiro, segundo = 1) {
 
 
 
-
 function remover(str){
 
      const strNum = str.replace(/[^a-zA-Z0-9]/g,'')
@@ -80,4 +79,8 @@ function remover(str){
 
 
 
+// Dividr string em pedaços 
 
+function dividirString() {
+
+}
