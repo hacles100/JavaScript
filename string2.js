@@ -56,7 +56,7 @@ function concatena(primeiro, segundo) {
 
 // Usando for
 function concatena2(primeiro, segundo = 1) {
-    
+
     let conjunto = ""
 
     for(let count = 0; count < segundo; count++){
@@ -66,6 +66,16 @@ function concatena2(primeiro, segundo = 1) {
 
     return conjunto
 
+}
+
+
+
+
+
+function remover(str){
+
+     const strNum = str.replace(/[^a-zA-Z0-9]/g,'')
+     return strNum 
 }
 
 
