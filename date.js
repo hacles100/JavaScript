@@ -118,11 +118,33 @@ function nhaData3(elemento){
 }
 
 
+// Funcao que compara duas datas e apresenta como resultado se a primeira data é superior, igual ou inferior
 
+function nhaData4(data_1, data_2){
 
+    let data = new Date()
+    data.setFullYear()
 
+    if (data_1 === data_2) {
+     
+        return "Datas iguais com"
 
+      }
+      else if (data_1 > data_2){
 
+        return "data_1 > data_2"
+      } 
+
+      else if (data_1 < data_2){
+
+        return "data_1 < data_2"
+      }
+      else{
+        return "Insira uma data"   
+      }
+    
+   
+}
 
 
 
