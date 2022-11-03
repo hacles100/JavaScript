@@ -63,16 +63,19 @@ function novo3(nome) {
 
 
 
-function divideString(nome, pedacos){
+function divideString(nome, pedacos = 1){
 
-    let nome = ""
+    const numChunks = Math.ceil(nome.length / pedacos)
+    const chunks = new Array(numChunks)
 
-    for(let i = 0; i < pedacos.length; i++) {
-
-        nome = nome + split(" ") 
+    for(let i=0, o = 0; i < numChunks; ++i, o+=pedacos){
+        chunks[i] = nome.substr(o,pedacos)
     }
 
-    return nome
+    return chunks
+    
 }
+
+
 
 
