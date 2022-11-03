@@ -77,5 +77,36 @@ function divideString(nome, pedacos = 1){
 }
 
 
+function divideString2(msg, divide =1){
+
+    const chunks = []
+
+    if(divide==1){
+        chunks.push(msg)
+        return chunks
+    } 
+
+    let part=""
+
+    for(let i=0; i<msg.length; i++){
+        part = part + msg[i]
+        if(part.length==divide){
+            chunks.push(part)
+            part=''
+        }
+    }
+
+    chunks.push(part)
+    return chunks
+
+    
+}
+
+
+function dataActual(){
+    
+}
+
+
 
 
