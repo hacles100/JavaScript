@@ -164,6 +164,8 @@ function nhaData5(adiciona){
    
 }
 
+// funcao que determina se uma data é fim de semana ou nao
+
 
 
 
