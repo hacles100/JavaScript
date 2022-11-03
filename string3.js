@@ -1,4 +1,4 @@
-function dividePedacos(nome, pedacos){
+function divideString(nome, pedacos){
 
     let nome = ""
 
