@@ -127,22 +127,40 @@ function nhaData4(data_1, data_2){
 
     if (data_1 === data_2) {
      
-        return "Datas iguais com"
+        return "Datas iguais"
 
       }
+      
       else if (data_1 > data_2){
 
         return "data_1 > data_2"
       } 
 
-      else if (data_1 < data_2){
+      else if (data_2 > data_1){
 
-        return "data_1 < data_2"
+        return "data_2 > data_1"
       }
-      else{
-        return "Insira uma data"   
-      }
+
     
+   
+}
+
+
+// funcao que adiciona uma hora a data actual
+
+function nhaData5(adiciona){
+
+    let data = new Date()
+
+    let dia = data.getDay()
+    let mes = data.getMonth() + 1
+    let ano = data.getFullYear()
+
+    let adiciona = `${dia}/${mes}/${ano}`
+    
+    return adiciona
+
+
    
 }
 
