@@ -79,8 +79,3 @@ function remover(str){
 
 
 
-// Dividr string em pedaços 
-
-function dividirString() {
-
-}
