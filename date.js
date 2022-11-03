@@ -164,7 +164,7 @@ function nhaData5(data, time){
 
     let data = `${dia}/${mes}/${ano} ${time}`
     
-    return time
+    return data
     
 
    
