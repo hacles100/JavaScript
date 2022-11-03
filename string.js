@@ -103,9 +103,35 @@ function divideString2(msg, divide =1){
 }
 
 
-function dataActual(){
+// function divideString3(msg, divide =1){
+
+//     const chunks = []
+
+//     if(divide==1){
+//         chunks.push(msg)
+//         return chunks
+//     } 
+
+//     for(let i=0; i<msg.length; i=i+divide){
+//         part = part + msg[i]
+//         if(part.length==divide){
+//             chunks.push(part)
+//             part=''
+//         }
+//     }
+
+//     chunks.push(part)
+//     return chunks
+
     
-}
+// }
+
+
+// function dataActual(date){
+
+//     const date = new Date(date);
+//     return date
+// }
 
 
 
