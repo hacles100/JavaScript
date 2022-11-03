@@ -126,12 +126,11 @@ function divideString2(msg, divide =1){
     
 // }
 
+ function dataActual(date){
 
-// function dataActual(date){
-
-//     const date = new Date(date);
-//     return date
-// }
+     const date = new Date(date);
+     return date
+     }
 
 
 
