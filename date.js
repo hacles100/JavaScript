@@ -68,8 +68,6 @@ function nhaData2(elemento){
 // dia da semana e mes por extenso
 
 
-
-
 function nhaData3(elemento){
 
     let data = new Date()
