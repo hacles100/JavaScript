@@ -58,6 +58,7 @@ function nhaData2(elemento){
 
         let time = `${dia}-${arrayMes[mes]}-${ano}`
     
+    
         return time
     }
    
@@ -148,7 +149,7 @@ function nhaData4(data_1, data_2){
 
 // funcao que adiciona uma hora a data actual
 
-function nhaData5(adiciona){
+function nhaData5(data, time){
 
     let data = new Date()
 
@@ -156,10 +157,15 @@ function nhaData5(adiciona){
     let mes = data.getMonth() + 1
     let ano = data.getFullYear()
 
-    let adiciona = `${dia}/${mes}/${ano}`
-    
-    return adiciona
+    let h = data.getHours()
+    let m = data.getMinutes()
+    let s = data.getSeconds()
+    let time = h + ":" + m + ":" + s
 
+    let data = `${dia}/${mes}/${ano} ${time}`
+    
+    return time
+    
 
    
 }
