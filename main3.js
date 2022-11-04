@@ -25,8 +25,8 @@ function nhaData(){
 }
 
 function addTextDiv(name){
-
-    return document.getElementById("msg").innerHTML +=  name
+    
+    document.getElementById("msg").innerHTML +=  ` ${name}`
 
 }
 
