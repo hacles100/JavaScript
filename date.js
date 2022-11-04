@@ -232,6 +232,29 @@ function min_Date(dates){
 
 
 
+function max_Date(dates){
+
+    let maxDate = undefined
+
+    for(let i=0; i<dates.length; i++){
+
+        if(i==0){
+            maxDate = dates[i]
+            
+        }else{
+            if(maxDate < dates[i]){
+                maxDate = dates[i]
+            }
+        }
+    }
+
+
+    return maxDate
+
+}
+
+
+
 
 
 // Funcao para retornar sexta feira apartir de uma data dada
