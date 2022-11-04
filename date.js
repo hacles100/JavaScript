@@ -147,31 +147,36 @@ function nhaData4(data_1, data_2){
 
 // funcao que adiciona uma hora a data actual
 
-function nhaData5(data, time){
+function nhaData5(data, hora){
 
-    let data = new Date()
-
-    let dia = data.getDay()
-    let mes = data.getMonth() + 1
-    let ano = data.getFullYear()
-
-    let h = data.getHours()
-    let m = data.getMinutes()
-    let s = data.getSeconds()
-    let time = h + ":" + m + ":" + s
-
-    let data = `${dia}/${mes}/${ano} ${time}`
-    
+    data.setUTCHours(data.setHours()+1+hora)
     return data
-    
-
-   
 }
 
 // funcao que determina se uma data é fim de semana ou nao
 
 
+function nhaData4(data_0){
 
+    
+   arrayDia = new Array();
+   arrayDia[0] = "Domingo";
+   arrayDia[1] = "Segunda-Feira";
+   arrayDia[2] = "Terça-Feira";
+   arrayDia[3] = "Quarta-Feira";
+   arrayDia[4] = "Quinta-Feira";
+   arrayDia[5] = "Sexta-Feira";
+   arrayDia[6] = "Sábado";
+
+    let data = new Date()
+
+    if (data_0 === ) {
+     
+        return "Datas iguais"
+
+      }
+      
+}
 
 
 
