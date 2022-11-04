@@ -170,6 +170,19 @@ function fimDeSemana(date){
 
 }
 
+
+// Funcao para retornar data anterior apartir de uma data dada
+
+function getPreviousDay(date) {
+    const previous = new Date(date.getTime());
+    previous.setDate(date.getDate() - 1);
+  
+    return previous;
+  }
+  
+
+
+// Funcao para retornar sexta feira apartir de uma data dada
 function sextaFeira(date){
 
     if(date.getDay() === 5) {
@@ -180,6 +193,8 @@ function sextaFeira(date){
         return 'Hoje nao é sexta feira'
     }
 }
+
+
 
 
 
