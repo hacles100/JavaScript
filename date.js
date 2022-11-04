@@ -191,6 +191,30 @@ function  diaAnterior(date) {
   
 
 
+// Funcao menor data
+
+// function menorData(data_1, data_2, data_3) {
+
+//     if(data_1.getTime() > data_2.getTime() && data_2.getTime() > data_3.getTime()) {
+
+//         return data_3
+
+//     }else if(data_3.getTime() > data_2.getTime() && data_2.getTime() > data_1.getTime()) {
+
+//         return data_1
+
+//     } else {
+//         return data_2
+//     }
+
+// }
+
+function
+
+
+
+
+
 // Funcao para retornar sexta feira apartir de uma data dada
 function sextaFeira(date){
 
