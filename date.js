@@ -209,7 +209,26 @@ function  diaAnterior(date) {
 
 // }
 
-function
+function min_Date(dates){
+
+    let min_Date = undefined
+
+    for(let i=0; i<dates.length; i++){
+
+        if(i==0){
+            min_Date = dates[i]
+            
+        }else{
+            if(min_Date > dates[i]){
+                min_Date = dates[i]
+            }
+        }
+    }
+
+
+    return min_Date
+
+}
 
 
 
