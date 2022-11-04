@@ -231,7 +231,7 @@ function min_Date(dates){
 }
 
 
-
+// Funcao maior data entre 3 datas no input
 function max_Date(dates){
 
     let maxDate = undefined
@@ -258,14 +258,35 @@ function max_Date(dates){
 
 
 // Funcao para retornar sexta feira apartir de uma data dada
-function sextaFeira(date){
+function dias(date){
 
-    if(date.getDay() === 5) {
+    if(date.getDay() === 0) {
 
-        return 'Hoje é sexta feira'
+        return 'Hoje é Domingo'
+
+    } else if(date.getDay() === 1){
+
+        return 'Hoje é Segunda Feira'
+
+    } else if(date.getDay() === 2) {
+
+        return 'Hoje é Terca Feira'
+
+    } else if(date.getDay() === 3) {
+
+        return 'Hoje é Quarta Feira'
+
+    } else if(date.getDay() === 4){
+
+        return 'Hoje é Quinta Feira'
+
+    } else if(date.getDay() === 5){
+
+        return 'Hoje é Sexta Feira'
 
     } else {
-        return 'Hoje nao é sexta feira'
+
+        return 'Hoje é Sabado'
     }
 }
 
