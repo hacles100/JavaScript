@@ -211,22 +211,22 @@ function  diaAnterior(date) {
 
 function min_Date(dates){
 
-    let min_Date = undefined
+    let minDate = undefined
 
     for(let i=0; i<dates.length; i++){
 
         if(i==0){
-            min_Date = dates[i]
+            minDate = dates[i]
             
         }else{
-            if(min_Date > dates[i]){
-                min_Date = dates[i]
+            if(minDate > dates[i]){
+                minDate = dates[i]
             }
         }
     }
 
 
-    return min_Date
+    return minDate
 
 }
 
