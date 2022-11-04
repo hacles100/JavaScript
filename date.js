@@ -179,6 +179,15 @@ function getPreviousDay(date) {
   
     return previous;
   }
+
+
+// outra versao
+
+function  diaAnterior(date) {
+    date = date.setDate(date.getDate() - 1)
+
+    return new Date(date)
+  }
   
 
 
