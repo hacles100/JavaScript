@@ -291,6 +291,29 @@ function dias(date){
 }
 
 
+function dias2(date){
+
+ 
+    arrayDia = new Array();
+    arrayDia[0] = "Domingo";
+    arrayDia[1] = "Segunda-Feira";
+    arrayDia[2] = "Terça-Feira";
+    arrayDia[3] = "Quarta-Feira";
+    arrayDia[4] = "Quinta-Feira";
+    arrayDia[5] = "Sexta-Feira";
+    arrayDia[6] = "Sábado";
+ 
+
+    for(let i=0; i<arrayDia.length; i++){
+
+        date = arrayDia[i]
+    }
+
+
+    return date
+
+}
+
 
 
 
