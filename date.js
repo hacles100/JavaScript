@@ -170,11 +170,16 @@ function fimDeSemana(date){
 
 }
 
-// const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+function sextaFeira(date){
 
-// const d = new Date();
-// let day = weekday[d.getDay()];
+    if(date.getDay() === 5) {
 
+        return 'Hoje é sexta feira'
+
+    } else {
+        return 'Hoje nao é sexta feira'
+    }
+}
 
 
 
