@@ -155,24 +155,11 @@ function nhaData5(data, hora){
 
 // funcao que determina se uma data é fim de semana ou nao
 
-function fimDeSemana(data){
-
-
-    let data = data.getDay()
-
-    arrayDia = new Array();
-    arrayDia[0] = "Domingo";
-    arrayDia[1] = "Segunda-Feira";
-    arrayDia[2] = "Terça-Feira";
-    arrayDia[3] = "Quarta-Feira";
-    arrayDia[4] = "Quinta-Feira";
-    arrayDia[5] = "Sexta-Feira";
-    arrayDia[6] = "Sábado";
+function fimDeSemana(date){
 
         
-    if(data === arrayDia[0] || data === arrayDia[6]){
+    if(date.getDay() === 0 || date.getDay() === 6){
 
-    
         return 'Fim de semana'
 
     }else {
@@ -182,6 +169,11 @@ function fimDeSemana(data){
  
 
 }
+
+// const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+
+// const d = new Date();
+// let day = weekday[d.getDay()];
 
 
 
